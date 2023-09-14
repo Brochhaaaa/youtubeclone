@@ -1,0 +1,107 @@
+.Searchbar::placeholder
+{
+    font-family:  Roboto, Arial; 
+    font-size: 16px;
+}
+.Searchbar
+{
+    display: flex;
+    flex: 1;
+    height: 40px;
+    width: 0px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    padding-left: 10px;
+    font-size: 16px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgb(243, 242, 242);
+}
+.leftsection
+{
+    display: flex;
+    align-items: center;
+}
+.middlesection
+{
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 35px;
+    align-items: center;
+}
+.rightsection
+{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.hamburger
+{
+    width: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.ytlogo
+{
+    width: 100px;
+}
+.searchbutton
+{
+    width: 64px;
+    height: 43px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    background-color: rgb(248,248,248);
+    margin-left: -2px;
+}
+.voicesearchbutton
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(248,248,248);
+}
+.imagesearch
+{
+    width: 30px;
+    margin-top: 5px;
+}
+.imagevoice
+{
+    width: 25px;
+    margin-top: 5px;
+}
+
+.right
+{
+    height: 24px;
+}
+
+.right1
+{
+    height: 32px;
+    border-radius: 25px;
+}
